@@ -18,3 +18,6 @@
 
 ## Dataset
 MNIST via Kaggle: https://www.kaggle.com/datasets/oddrationale/mnist-in-csv
+
+## PyTorch Port
+Same 784 -> 128 -> 10 architecture, reimplemented in PyTorch using nn.Module, DataLoader, and CrossEntropyLoss. Achieved ~97% test accuracy in 5 epochs.
